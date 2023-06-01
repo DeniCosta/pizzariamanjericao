@@ -1,8 +1,8 @@
 /* QUEM SOMOS */
 
 :root {
-	background-color: #f9f9f9;
-	color: red;
+	background-image: url(https://images.pexels.com/photos/5640015/pexels-photo-5640015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+	color: #2b6e3b;
 }
 
 /* corpo da página */
@@ -15,7 +15,6 @@ body {
 /* cabeçalho */
 header {
 	background-color: #ffffff;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -35,7 +34,7 @@ header nav li {
 }
 
 header nav a {
-	color: red;
+	color: #2b6e3b;
 	font-size: 18px;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -49,38 +48,39 @@ header nav a:hover {
 /* seções */
 section.quem-somos {
 	background-color: #ffffff;
-	padding: 40px;
+	padding: 10px;
 	margin: 20px 0;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 section.quem-somos h2 {
 
 	font-size: 28px;
-	margin-bottom: 20px;
 	text-align: center;
 }
 
 section.quem-somos p {
 	color: #333333;
-	font-size: 16px;
 	line-height: 1.5;
-	margin-bottom: 20px;
 	text-align: justify;
 }
 
 /* rodapé */
 footer {
-	background-color: #d5d3d3;
-	color: #ffffff;
-	font-size: 14px;
+	background-color: #ffffff;
+	color: #2b6e3b;
+	font-size: 17px;
 	font-style: italic;
-	padding: 10px;
 	text-align: center;
+	margin-top: 300px;
+	
 }
 
-footer p {
+ footer h3 {
 	margin: 0;
-}
+	font-size: 18px;
+	
+
+} 
 
 /* fim pagina quem somos */
