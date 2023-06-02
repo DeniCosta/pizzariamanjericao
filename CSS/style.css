@@ -1,8 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;400&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	font-family: 'Anybody', cursive;
 }
+
 
 :root {
 	background-image: url(https://images.pexels.com/photos/5640015/pexels-photo-5640015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
@@ -11,13 +16,14 @@
 
 /* corpo da página */
 body {
-	/* COLOCAR font-family  */
+	background-color: red;
 	margin: 0;
 	padding: 0;
 }
 
 /* cabeçalho */
 header {
+	color: #004f3f;
 	background-color: #ffffff;
 	display: flex;
 	flex-direction: column;
@@ -80,7 +86,7 @@ footer {
 	
 }
 
- footer h3 {
+footer h3 {
 	margin: 0;
 	font-size: 18px;
 	
