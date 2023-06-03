@@ -63,19 +63,30 @@ section.quem-somos p {
 	text-align: justify;
 }
 
-/* rodapé */
-footer {
-	background-color: #ffffff;
-	color: #2b6e3b;
-	font-size: 17px;
-	font-style: italic;
-	text-align: center;
-	margin-top: 300px;
-	
-}
+
 
 footer h3 {
 	margin: 0;
 	font-size: 18px;
 
 } 
+
+/* seções */
+section.quem-somos {
+	background-color: #ffffff;
+	padding: 10px;
+	margin: 20px 0;
+
+}
+
+section.quem-somos h2 {
+
+	font-size: 28px;
+	text-align: center;
+}
+
+section.quem-somos p {
+	color: #333333;
+	line-height: 1.5;
+	text-align: justify;
+}
