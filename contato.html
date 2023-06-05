@@ -28,14 +28,17 @@
 
     <main class="conteudoPrincipalForm">
         <h2> Entre em contato conosco!</h2>
-        <form class="container-form">
+        <form id="form" class="container-form">
             <fieldset class="formulario">
-                <label> Nome: </label>
-                <input type="text" placeholder="Seu nome" required>
-                <label> Celular: </label>
-                <input type="text" placeholder="*******@****.***" required>
-                <label> Mensagem: </label>
-                <textarea name="Mensagem" cols="50" rows="10" placeholder="Sugestões e/ou agradecimentos" required></textarea>
+                <label for="name"> Nome: </label>
+                <input type="text" id="name"> 
+
+                <label for="celular"> Celular: </label>
+                <input type="text" id="celular">
+
+                <label for="mensagem"> Mensagem: </label>
+                <textarea id="mensagem" cols="50" rows="10"></textarea>
+
                 <button type="submit"> Enviar </button>
             </fieldset>
         </form>
@@ -46,5 +49,4 @@
 
     <script src=".//JavaScript/scriptFormulario.js"> </script>
 </body>
-
 </html>

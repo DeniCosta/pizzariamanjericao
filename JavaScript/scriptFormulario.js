@@ -1,16 +1,28 @@
-lenght = 11 caracteres 
-var nome = null
-var telefone = telefone.lenght
-var mensagem = null
+const form = document.querySelector("#form");
+const nameInput = document.querySelector("#name");
+const celularInput = document.querySelector("#celular");
+const mensagemTextarea = document.querySelector("#mensagem");
 
-if (nome != null){
-    console.log("Vá para o próximo campo")
-}
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
 
-if (telefone === ){
-    console.log("Vá para o próximo campo")
-}
 
-if (mensagem != null){
-    console.log("Vá para o próximo campo")
-}
+  if (nameInput.value === "") {
+    alert("Por favor, preencha o campo nome!");
+    return;
+  }
+  
+  if (celularInput.value === "") {
+    alert("Por favor, preencha o campo celular!");
+    return;
+  }
+
+  if (mensagemTextarea.value === "") {
+    alert("Por favor, preencha o Mensagem!");
+    return;
+  }
+
+
+  form.submit(alert("Dados enviados com sucesso!"));
+
+})
