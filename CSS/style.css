@@ -60,6 +60,14 @@ h2{
 	
 }
 
+h3{
+	font-size: 14px;
+}
+
+h4{
+	font-size: 12px;
+	font-weight: lighter;
+}
 p{
 	font-weight: lighter;
 	font-size: 20px;
