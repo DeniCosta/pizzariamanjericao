@@ -13,30 +13,159 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="menu">
-                <li><a href="#">Cardapio</a></li>
-                <li><a href="#">Sobre</a></li>
+    <!--menu de navegação-->
+    <header class="nav">
+        <div class="logo-image">
+            <img src="./assets/logo.svg" alt="logotipo">
+        </div>
+        <div class="nav-link">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#">Quem somos</a></li>
                 <li><a href="#">Equipe</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
     <main>
+        <h2 class="titulo-cardapio">Cardápio</h2>
         <section class="pizzasSalgadas">
             <div class="pizza-card">
                 <img src="./assets/pepperoni.jpg" alt="Pizza de pepperoni" class="pizza-image">
                 <div class="pizza-detalhes">
-                    <div class="pizza-preco">R$ 40,00 - 60,00</div>
-                    <div class="pizza-nome">Pepperoni</div>
-                </div>
+                    <div class="pizza-preco-conteiner">
+                        <div class="pizza-preco">
+                            <h4>Média</h4>
+                            <h3>R$ 50,00</h3>
+                        </div>
+                        <div class="pizza-preco">
+                            <h4>Grande</h4>
+                            <h3>R$ 60,00</h3>
+                        </div>
+                    </div>
+                    <div class="pizza-nome">
+                        <h2>Pepperoni</h2>
+                    </div>
+                    <div class="modal">
+                        <img src="./assets/lista-icon.svg" alt="Abrir modal">
+                    </div>
+                </div>   
+            </div>
+            <div class="pizza-card">
+                <img src="./assets/cogumelo.jpg" alt="Pizza de cogumelo" class="pizza-image">
+                <div class="pizza-detalhes">
+                    <div class="pizza-preco-conteiner">
+                        <div class="pizza-preco">
+                            <h4>Média</h4>
+                            <h3>R$ 60,00</h3>
+                        </div>
+                        <div class="pizza-preco">
+                            <h4>Grande</h4>
+                            <h3>R$ 70,00</h3>
+                        </div>
+                    </div>
+                    <div class="pizza-nome">
+                        <h2>Cogumelos</h2>
+                    </div>
+                    <div class="modal">
+                        <img src="./assets/lista-icon.svg" alt="Abrir modal">
+                    </div>
+                </div>   
+            </div>
+            <div class="pizza-card">
+                <img src="./assets/napolitana.jpg" alt="Pizza napolitana" class="pizza-image">
+                <div class="pizza-detalhes">
+                    <div class="pizza-preco-conteiner">
+                        <div class="pizza-preco">
+                            <h4>Média</h4>
+                            <h3>R$ 30,00</h3>
+                        </div>
+                        <div class="pizza-preco">
+                            <h4>Grande</h4>
+                            <h3>R$ 40,00</h3>
+                        </div>
+                    </div>
+                    <div class="pizza-nome">
+                        <h2>Napolitana</h2>
+                    </div>
+                    <div class="modal">
+                        <img src="./assets/lista-icon.svg" alt="Abrir modal">
+                    </div>
+                </div>   
+            </div>
+
+        </section>
+        <section class="pizzasDoces">
+            <div class="pizza-card">
+                <img src="./assets/morango.png" alt="Pizza de morangopera" class="pizza-image">
+                <div class="pizza-detalhes">
+                    <div class="pizza-preco-conteiner">
+                        <div class="pizza-preco">
+                            <h4>Média</h4>
+                            <h3>R$ 70,00</h3>
+                        </div>
+                        <div class="pizza-preco">
+                            <h4>Grande</h4>
+                            <h3>R$ 80,00</h3>
+                        </div>
+                    </div>
+                    <div class="pizza-nome">
+                        <h2>Morango</h2>
+                    </div>
+                    <div class="modal">
+                        <img src="./assets/lista-icon.svg" alt="Abrir modal">
+                    </div>
+                </div>   
+            </div>
+            <div class="pizza-card">
+                <img src="./assets/pera.png" alt="Pizza de pera" class="pizza-image">
+                <div class="pizza-detalhes">
+                    <div class="pizza-preco-conteiner">
+                        <div class="pizza-preco">
+                            <h4>Média</h4>
+                            <h3>R$ 50,00</h3>
+                        </div>
+                        <div class="pizza-preco">
+                            <h4>Grande</h4>
+                            <h3>R$ 60,00</h3>
+                        </div>
+                    </div>
+                    <div class="pizza-nome">
+                        <h2>Pera</h2>
+                    </div>
+                    <div class="modal">
+                        <img src="./assets/lista-icon.svg" alt="Abrir modal">
+                    </div>
+                </div>   
+            </div>
+            <div class="pizza-card">
+                <img src="./assets/california.png" alt="Pizza de frutas" class="pizza-image">
+                <div class="pizza-detalhes">
+                    <div class="pizza-preco-conteiner">
+                        <div class="pizza-preco">
+                            <h4>Média</h4>
+                            <h3>R$ 40,00</h3>
+                        </div>
+                        <div class="pizza-preco">
+                            <h4>Grande</h4>
+                            <h3>R$ 50,00</h3>
+                        </div>
+                    </div>
+                    <div class="pizza-nome">
+                        <h2>Califórnia</h2>
+                    </div>
+                    <div class="modal">
+                        <img src="./assets/lista-icon.svg" alt="Abrir modal">
+                    </div>
+                </div>   
             </div>
         </section>
-        <section class="pizzasDoces"></section>
-        <section class="bebidas"></section>
+
     </main>
+    <!--rodapé-->
     <footer>
+        <p>2023 Pizzaria Manjericão.</p>
     </footer>
 
 </body>
