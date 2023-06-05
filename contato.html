@@ -1,38 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/formulario.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Formulário de contato</title>
 </head>
+
 <body>
-    <header>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#">Cardapio</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Equipe</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
+    <header class="nav">
+        <div class="logo-image">
+            <img src="./assets/logo.svg" alt="logotipo">
+        </div>
+        <div class="nav-link">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Equipe</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
     </header>
-    
-<main class="container-form">
+
+    <main class="conteudoPrincipalForm">
         <h2> Entre em contato conosco!</h2>
         <form class="container-form">
             <fieldset class="formulario">
-            <label> Nome: </label>
-            <input type="text" placeholder="Seu nome" required>
-            <label> Celular: </label>
-            <input type="text" placeholder="(xx)xxxxx-xxxx" required>
-            <label> Mensagem: </label>
-            <textarea name="Mensagem" class="mensagem" cols="50" rows="10" required ></textarea>
-            <button class="botao" type="submit"> Enviar </button>
+                <label> Nome: </label>
+                <input type="text" placeholder="Seu nome" required>
+                <label> Celular: </label>
+                <input type="text" placeholder="*******@****.***" required>
+                <label> Mensagem: </label>
+                <textarea name="Mensagem" cols="50" rows="10" placeholder="Sugestões e/ou agradecimentos" required></textarea>
+                <button type="submit"> Enviar </button>
             </fieldset>
         </form>
+    </main>
+    <footer>
+        <p>2023 Pizzaria Manjericão ® </p>
+    </footer>
 
-        <script src=".//JavaScript/scriptFormulario.js"> </script>
+    <script src=".//JavaScript/scriptFormulario.js"> </script>
 </body>
+
 </html>

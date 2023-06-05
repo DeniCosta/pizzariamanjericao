@@ -2,30 +2,58 @@
 body{
     background-color:#ffba;
 }
-.formulario{ 
-	display: flex;
-	flex-direction: column;
-    width: 500px;
-    margin: 10px auto;
+
+.conteudoPrincipalForm, h2{
+    margin-top: 20px;
+
 }
 
 .container-form{
-    width: 500px;
+    width: 70%;
     margin: 10px auto;
 }
 
-label{ 
-    padding: 5px;
+
+.formulario{ 
+	display: flex;
+	flex-direction: column;
+    width: 70%;
+    margin: 10px auto;
+    
 }
 
-input{
-    margin: 5px;
-    padding: 5px;
-}
-
-.botao{
+label, input, textarea, button{
     margin: 5px;
     padding: 5px;
     border-radius: 10px;
+}
+
+
+/* RESPONSIVIDADE ---------------------------------------------------------------------- */
+
+@media (max-width:1200px){
+    .conteudoPrincipalForm, h2{
+        margin-top: 20px;
+    }
+    
+    .container-form{
+        width: 70%;
+        margin: 10px auto;
+    }
+    
+    
+    .formulario{ 
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 10px auto;
+        
+    }
+    
+    label, input, textarea, button{
+        margin: 5px;
+        padding: 5px;
+        border-radius: 10px;
+    }
     
 }
