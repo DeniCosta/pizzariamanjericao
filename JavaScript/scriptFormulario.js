@@ -1,13 +1,13 @@
-lenght = 11 caracteres 
-var nome = null
+lenght = 11 caracteres
+var nome = 0
 var telefone = telefone.lenght
-var mensagem = null
+var mensagem = 0 
 
 if (nome != null){
     console.log("Vá para o próximo campo")
 }
 
-if (telefone === ){
+if (telefone === parseInt() ){
     console.log("Vá para o próximo campo")
 }
 
