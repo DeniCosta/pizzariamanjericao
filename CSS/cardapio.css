@@ -53,3 +53,35 @@ justify-content: space-between;
     font-size: 20px;
     max-width: 90vw;
 }
+
+.like-button .heart-icon {
+    height: 100px;
+    width: 100px;
+    background: url("../assets/heart.png");
+    background-position: left;
+    cursor: pointer;
+    
+  }
+  
+  .like-button .heart-icon.liked {
+    animation: like-anim 0.7s steps(28) forwards;
+  }
+  
+  @keyframes like-anim {
+    to {
+      background-position: right;
+    }
+  }
+  
+  .like-button .heart-bg {
+    background: rgba(255, 192, 200, 0);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    transition: all 100ms ease;
+  }
+  
+
+  
+  
+  

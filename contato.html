@@ -17,25 +17,28 @@
         </div>
         <div class="nav-link">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Cardápio</a></li>
-                <li><a href="#">Quem somos</a></li>
-                <li><a href="#">Equipe</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="quemsomos.html">Quem somos</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </div>
     </header>
 
     <main class="conteudoPrincipalForm">
         <h2> Entre em contato conosco!</h2>
-        <form class="container-form">
+        <form id="form" class="container-form">
             <fieldset class="formulario">
-                <label> Nome: </label>
-                <input type="text" placeholder="Seu nome" required>
-                <label> Celular: </label>
-                <input type="text" placeholder="*******@****.***" required>
-                <label> Mensagem: </label>
-                <textarea name="Mensagem" cols="50" rows="10" placeholder="Sugestões e/ou agradecimentos" required></textarea>
+                <label for="name"> Nome: </label>
+                <input type="text" id="name">
+
+                <label for="celular"> Celular: </label>
+                <input type="text" id="celular">
+
+                <label for="mensagem"> Mensagem: </label>
+                <textarea id="mensagem" cols="50" rows="10"></textarea>
+
                 <button type="submit"> Enviar </button>
             </fieldset>
         </form>
