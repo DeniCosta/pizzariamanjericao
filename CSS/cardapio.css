@@ -1,19 +1,12 @@
 /* Estilização do título do cardápio */
 .titulo-cardapio {
-    margin-top: 20px; /* Margem superior de 20 pixels */
-    font-size: 28px; /* Tamanho da fonte de 28 pixels */
-    text-align: center; /* Alinhamento centralizado */
+    margin-top: 20px; 
+    font-size: 28px; 
+    text-align: center; 
 }
 
 /* Estilização das pizzas salgadas */
-.pizzasSalgadas {
-    display: flex; /* Exibição em formato flex */
-    justify-content: space-evenly; /* Distribuição igual do espaço entre os elementos */
-    flex-wrap: wrap; /* Quebra de linha automática quando necessário */
-}
-
-/* Estilização das pizzas doces */
-.pizzasDoces {
+.pizzasSalgadas, .pizzasDoces {
     display: flex; /* Exibição em formato flex */
     justify-content: space-evenly; /* Distribuição igual do espaço entre os elementos */
     flex-wrap: wrap; /* Quebra de linha automática quando necessário */
