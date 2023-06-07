@@ -3,14 +3,15 @@ body{
     background-color:#ffba;
 }
 
-.conteudoPrincipalForm, h2{
+/* .conteudoPrincipalForm, h2{
     margin-top: 20px;
 
-}
+} */
 
 .container-form{
     width: 70%;
     margin: 10px auto;
+    padding: 10px;
 }
 
 
@@ -18,7 +19,7 @@ body{
 	display: flex;
 	flex-direction: column;
     width: 70%;
-    height: 300px;
+    height: 26vw;
     margin: 10px auto;
     padding: 10px;
     border-radius: 10px;
@@ -30,6 +31,11 @@ label, input, textarea, button{
     padding: 5px;
     border-radius: 10px;
 } 
+
+textarea{
+    height: 400rem;
+
+}
 
 
 /* RESPONSIVIDADE ---------------------------------------------------------------------- */

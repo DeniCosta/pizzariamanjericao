@@ -7,7 +7,7 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
 
 if (telefone === parseInt() ){
-    console.log("Vá para o próximo campo")
+    alert("Vá para o próximo campo")
 }
 
   else if (nameInput.value === "") {
