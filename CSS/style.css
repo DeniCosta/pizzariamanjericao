@@ -15,7 +15,7 @@
 
 .nav {
   max-width: 100vw;
-  height: 55px;
+  height: 45px;
   display: flex;
   justify-content: space-around;
   padding: 10px 0;
@@ -39,26 +39,21 @@ ul {
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
-
-  color: brown;
-  display: block;
   text-decoration: none;
-  padding: 10px 20px 10px 20px;
+  padding: 10px;
   border-radius: 10px;
 }
 
 .nav-link li a:hover {
   color: rgb(242, 232, 232);
-  display: block;
+ 
   text-decoration: none;
   background-color: rgb(26, 172, 89);
 }
 
 h1 {
   font-weight: bold;
-  margin-top: 100px;
-  margin-left: 50px;
-  font-size: 80px;
+  font-size: 50px;
 }
 
 h2 {

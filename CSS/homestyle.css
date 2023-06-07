@@ -1,9 +1,18 @@
-.home-wrapper {
+.main-home{
     background-image: url(../assets/img-bkg.jpeg);
     background-size: cover;
 }
 
-.main-home {
-    flex: 20 1 500px;
-    height: calc(100vh - 224px);
+.home-texto{
+    height: 80vh;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.8);
+	max-width: 70vw;
+    margin: 0 auto;
+    padding: 20px;
+    
 }
+/* .main-home {
+    flex: 20 1 500px;
+    height: 50vh;
+} */
