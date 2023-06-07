@@ -1,87 +1,90 @@
-.titulo-cardapio{
-	margin-top: 20px;
-	font-size: 28px;
-	text-align: center;
+/* Estilização do título do cardápio */
+.titulo-cardapio {
+    margin-top: 20px; /* Margem superior de 20 pixels */
+    font-size: 28px; /* Tamanho da fonte de 28 pixels */
+    text-align: center; /* Alinhamento centralizado */
 }
 
-
-.pizzasSalgadas{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+/* Estilização das pizzas salgadas */
+.pizzasSalgadas {
+    display: flex; /* Exibição em formato flex */
+    justify-content: space-evenly; /* Distribuição igual do espaço entre os elementos */
+    flex-wrap: wrap; /* Quebra de linha automática quando necessário */
 }
 
-.pizzasDoces{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+/* Estilização das pizzas doces */
+.pizzasDoces {
+    display: flex; /* Exibição em formato flex */
+    justify-content: space-evenly; /* Distribuição igual do espaço entre os elementos */
+    flex-wrap: wrap; /* Quebra de linha automática quando necessário */
 }
 
-.pizza-card{
-    display: flex;
-    justify-content: space-between;
-    width: 290px;
-    height: auto;
+/* Estilização do cartão de pizza */
+.pizza-card {
+    display: flex; /* Exibição em formato flex */
+    justify-content: space-between; /* Distribuição igual do espaço entre os elementos */
+    position: relative; /* Posicionamento relativo ao elemento pai*/
+    width: 290px; 
+    height: auto; 
     border-radius: 10px;
-    background-color: #f7fbf4;
-    padding: 10px;
-    margin: 20px 10px 15px 10px;
+    background-color: #f7fbf4; 
+    padding: 10px; 
+    margin: 20px 10px 15px 10px; 
 }
 
-.pizza-image{
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-    
+/* Estilização da imagem da pizza */
+.pizza-image {
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%; /* Raio de borda de 50% (forma circular) */
 }
 
-.pizza-detalhes{
-    text-align: center;
+/* Estilização dos detalhes da pizza */
+.pizza-detalhes {
+    text-align: center; 
 }
 
-.pizza-preco-conteiner{
-display: flex;
-flex-wrap: nowrap;
-justify-content: space-between;
+/* Estilização do contêiner de preço da pizza */
+.pizza-preco-conteiner {
+    display: flex; 
+    flex-wrap: nowrap; /* Impedir quebra de linha dos elementos filhos */
+    justify-content: space-between; /* Distribuição igual do espaço entre os elementos */
 }
 
-.pizza-preco{
-    margin: 10px 5px 10px 5px;
+/* Estilização do preço da pizza */
+.pizza-preco {
+    margin: 10px 5px 10px 5px; 
 }
 
-.pizza-nome > h2{
-    font-size: 20px;
-    max-width: 90vw;
+/* Estilização do nome da pizza */
+.pizza-nome > h2 {
+    font-size: 20px; 
+    max-width: 90vw; 
 }
 
-.like-button .heart-icon {
-    height: 100px;
-    width: 100px;
-    background: url("../assets/heart.png");
-    background-position: left;
-    cursor: pointer;
-    
-  }
-  
-  .like-button .heart-icon.liked {
-    animation: like-anim 0.7s steps(28) forwards;
-  }
-  
-  @keyframes like-anim {
-    to {
-      background-position: right;
-    }
-  }
-  
-  .like-button .heart-bg {
-    background: rgba(255, 192, 200, 0);
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    transition: all 100ms ease;
-  }
-  
+/* Estilização dos ingredientes */
+.pizza-nome>p{
+    font-size: 10px;
+    text-align: left;
+    padding: 5px;
+}
 
-  
-  
-  
+/* Estilização do contêiner do coração */
+.coracao-container {
+    position: absolute; /* Posicionamento absoluto em relação ao elemento pai*/
+    bottom: 10px;
+    right: 10px; 
+}
+
+/* Estilização do ícone de coração */
+.coracao {
+    width: 30px;
+    height: 30px; 
+}
+
+/* Estilização do ícone de coração inativo */
+.coracao.inativo {
+    display: none; /* Não exibir o ícone */
+}
+
+
