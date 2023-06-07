@@ -16,8 +16,6 @@ body {
 }
 
 
-<<<<<<< HEAD
-=======
 ul {
   display: flex;
   justify-content: space-between;
@@ -29,10 +27,6 @@ ul {
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
-<<<<<<< HEAD
-=======
-
->>>>>>> e2661d40d98e2f51417ebb5e06173f6d4b7eb625
   color: #004f3f;
   display: block;
   text-decoration: none;
@@ -45,10 +39,10 @@ ul {
   display: block;
   text-decoration: none;
   background-color: rgb(26, 172, 89);
-  
+
 }
+
 /* fim do menu de navegação */
->>>>>>> 8f3422c09d31bd21898c7b50a76671e88ab81de5
 
 /* titulo */
 h1 {
@@ -90,4 +84,3 @@ footer {
   line-height: 50px;
   margin-top: 88px;
 }
-
