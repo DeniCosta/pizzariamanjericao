@@ -1,4 +1,5 @@
 * {
+
   margin: 0;
   padding: 0;
   list-style: none;
@@ -15,6 +16,39 @@ body {
 }
 
 
+<<<<<<< HEAD
+=======
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.nav-link li a {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> e2661d40d98e2f51417ebb5e06173f6d4b7eb625
+  color: #004f3f;
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+}
+
+.nav-link li a:hover {
+  color: rgb(242, 232, 232);
+  display: block;
+  text-decoration: none;
+  background-color: rgb(26, 172, 89);
+  
+}
+/* fim do menu de navegação */
+>>>>>>> 8f3422c09d31bd21898c7b50a76671e88ab81de5
 
 /* titulo */
 h1 {
