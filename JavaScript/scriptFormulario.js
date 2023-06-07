@@ -1,26 +1,24 @@
 
-var nome = 0
-var telefone = telefone.lenght
-var mensagem = 0 
+const form = document.querySelector("#form");
+const nameInput = document.querySelector("#name");
+const celularInput = document.querySelector("#celular");
+const mensagemTextarea = document.querySelector("#mensagem");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-if (telefone === parseInt() ){
-    console.log("Vá para o próximo campo")
-}
 
-  else if (nameInput.value === "") {
+  if (nameInput.value === "") {
     alert("Por favor, preencha o campo nome!");
     return;
   }
-  
-  else if (celularInput.value === "") {
+
+  if (celularInput.value === "") {
     alert("Por favor, preencha o campo celular!");
     return;
   }
 
-  else if (mensagemTextarea.value === "") {
+  if (mensagemTextarea.value === "") {
     alert("Por favor, preencha o Mensagem!");
     return;
   }

@@ -2,17 +2,17 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/formulario.css">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <title>Formulário de contato</title>
-    <link rel="shortcut icon" href="assets/iconePizza.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/formulario.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Formulário de contato</title>
+  <link rel="shortcut icon" href="assets/iconePizza.png" type="image/x-icon">
 </head>
 
 <body>
-    <!--menu de navegação-->
+  <!--menu de navegação-->
   <header class="nav">
     <div class="logo-image">
       <img src="./assets/logo.svg" alt="logotipo">
@@ -27,32 +27,35 @@
       </ul>
     </div>
   </header>
-    <main>
-        <section id="formulario">
-            <form class="container-form">
-                <h2> Entre em contato conosco!</h2>
-                <fieldset class="formulario">
-                    <!-- é a linha fina de separação -->
-                    <label> Nome: </label>
-                    <!-- é o "título" da informação -->
-                    <input type="text" placeholder="Ex: Maria Dos Santos">
-                    <!-- é a entrada pra info, de tipo texto -->
-                    <label> Celular: </label>
-                    <input type="text" placeholder="(XX)XXXXX-XXXX">
-                    <label> Mensagem: </label>
-                    <textarea name="Mensagem" placeholder="Sugestão ou agradecimento"></textarea>
-                    <input type="submit"></input>
-                    <!-- pode usar button ou input com submit -->
-                </fieldset>
-            </form>
-        </section>
-    </main>
 
-    <footer>
-        <p>2023 Pizzaria Manjericão ® </p>
-    </footer>
+  <main class="conteudoPrincipalForm">
+    <section>
+      <form id="form" class="container-form">
+        <h2> Entre em contato conosco!</h2>
+        <fieldset class="formulario">
+          <!-- é a linha fina de separação -->
+          <label for="name"> Nome: </label>
+          <!-- é o "título" da informação -->
+          <input type="text" id="name">
 
-    <script src=".//JavaScript/scriptFormulario.js"> </script>
+          <label for="celular"> Celular: </label>
+          <input type="text" id="celular">
+
+          <label for="mensagem"> Mensagem: </label>
+          <textarea id="mensagem"></textarea>
+          <button type="submit"> Enviar </button>
+          <!-- pode usar button ou input com submit -->
+
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>2023 Pizzaria Manjericão ® </p>
+  </footer>
+
+  <script src=".//JavaScript/scriptFormulario.js"> </script>
 </body>
 
 </html>
