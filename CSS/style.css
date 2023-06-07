@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family= Poppins & display=swap");
 
-/* rodapé --------------------------------------------------*/
-
 * {
   margin: 0;
   padding: 0;
@@ -46,7 +44,6 @@ ul {
 
 .nav-link li a:hover {
   color: rgb(242, 232, 232);
- 
   text-decoration: none;
   background-color: rgb(26, 172, 89);
 }
@@ -76,7 +73,7 @@ p {
   color: #202020;
 }
 
-/* rodapé */
+/* rodapé ------------------------------------------------- */
 footer {
   background-color: #bcdda6;
   font-size: 17px;
@@ -85,4 +82,31 @@ footer {
   width: 100vw;
   height: 50px;
   line-height: 50px;
+}
+
+
+/* MEDIA COMUM --------------------------------------- */
+
+@media (max-width:1200px) {
+
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #61b500;
+    text-align: center;
+    font-size: large;
+  }
+  
+  h3 {
+    font-size: 14px;
+  }
+  
+  h4 {
+    font-size: 12px;
+    font-weight: lighter;
+  }
 }

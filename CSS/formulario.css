@@ -1,38 +1,34 @@
-
-body{
-    background-color:#ffba;
+body {
+    background-color: #ffba;
 }
 
-/* .conteudoPrincipalForm, h2{
-    margin-top: 20px;
 
-} */
-
-.container-form{
+.container-form {
     width: 70%;
     margin: 10px auto;
     padding: 10px;
 }
 
 
-.formulario{ 
-	display: flex;
-	flex-direction: column;
+.formulario {
+    display: flex;
+    flex-direction: column;
     width: 70%;
     height: 26vw;
     margin: 10px auto;
     padding: 10px;
-    border-radius: 10px;
-    
+
 }
 
-label, input, textarea, button{
-    margin: 5px;
+label,
+input,
+textarea,
+button {
     padding: 5px;
     border-radius: 10px;
-} 
+}
 
-textarea{
+textarea {
     height: 400rem;
 
 }
@@ -40,31 +36,40 @@ textarea{
 
 /* RESPONSIVIDADE ---------------------------------------------------------------------- */
 
-@media (max-width:1200px){
-    .conteudoPrincipalForm, h2{
-        margin-top: 20px;
+@media (max-width:1200px) {
+    body {
+        background-color: #ffba;
     }
-    
-    .container-form{
+
+
+    .container-form {
         width: 70%;
         margin: 10px auto;
+        padding: 10px;
     }
-    
-    
-    .formulario{ 
+
+
+    .formulario, h1 {
         display: flex;
         flex-direction: column;
         width: 70%;
+        height: 330px;
         margin: 10px auto;
+        padding: 10px;
+
+    }
+
+    label,
+    input,
+    button {
         padding: 5px;
         border-radius: 10px;
-        
     }
-    
-    label, input, textarea, button{
-        margin: 5px;
+
+    textarea {
+        height: 230px;
         padding: 5px;
         border-radius: 10px;
+
     }
-    
 }
