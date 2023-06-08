@@ -24,7 +24,7 @@ ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .nav-link li a {
@@ -76,8 +76,9 @@ footer {
   font-style: italic;
   text-align: center;
   width: 100vw;
-  height: 50px;
+  height: auto;
   line-height: 50px;
+  padding: 20px 0;
 }
 
 
