@@ -45,12 +45,10 @@ ul {
 /* fim do menu de navegação */
 
 /* titulo */
-h1 {
+.container>h2 {
   margin-top: 20px;
-  font-size: 28px;
-  text-align: center;
-  margin-top: 50px;
-  color: #bcdda6;
+	font-size: 28px;
+	text-align: center;
 }
 
 /* estilização das fotos da equipe */
@@ -73,14 +71,3 @@ h1 {
   border-radius: 50%;
 }
 
-/* rodapé */
-footer {
-  background-color: #bcdda6;
-  font-size: 20px;
-  font-style: italic;
-  text-align: center;
-  width: 100vw;
-  height: 50px;
-  line-height: 50px;
-  margin-top: 88px;
-}
