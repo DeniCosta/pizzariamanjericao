@@ -4,7 +4,7 @@
 }
 
 .home-texto{
-    height: 80vh;
+    height: auto;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.8);
 	max-width: 70vw;
@@ -12,10 +12,11 @@
     padding: 20px;
     
 }
-/* .main-home {
-    flex: 20 1 500px;
-    height: 50vh;
-} */
+
+.home-texto>p{
+    padding: 10px;
+    font-size: 2vw;
+}
 
 .clicarCardapio{
     color: #61b500;
