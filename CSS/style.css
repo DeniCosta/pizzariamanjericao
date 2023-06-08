@@ -72,15 +72,43 @@ p {
 /* rodapé ------------------------------------------------- */
 footer {
   background-color: #bcdda6;
+  width: 100vw;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-informacoes, .informacoes{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-footer{
+  padding: 20px;
+}
+
+.horario>p{
+  text-align: center;
+  font-size: 12px;
+}
+
+.whatsapp{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.whatsapp>p{
+  padding: 10px;
+  font-size: 14px;
+}
+
+.copy{
   font-size: 17px;
   font-style: italic;
   text-align: center;
-  width: 100vw;
-  height: auto;
-  line-height: 50px;
-  padding: 20px 0;
+  
 }
-
 
 /* MEDIA COMUM --------------------------------------- */
 
